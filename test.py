@@ -7,7 +7,7 @@ def add(x, y):
 
 def list_modifier(lista):
   some_list = []
-  for i in len(lista):
+  for i in range(len(lista)):
     some_list.append(lista[i:])
 
 print(list_modifier([9,2,3,45]))
