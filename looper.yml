@@ -1,0 +1,10 @@
+steps:
+  - name: step1
+    script: |
+      echo "Running step 1"
+      # Add your commands here
+
+  - name: step2
+    script: |
+      echo "Running step 2"
+      # Add more commands
